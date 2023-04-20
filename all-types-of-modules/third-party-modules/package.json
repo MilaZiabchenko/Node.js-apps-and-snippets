@@ -1,0 +1,22 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "description": "A countdown clock",
+  "main": "countdown.js",
+  "type": "module",
+  "scripts": {
+    "start": "node countdown.js --hours 0 --minutes 0 --seconds 5"
+  },
+  "keywords": [
+    "Node.js",
+    "JavaScript",
+    "timers"
+  ],
+  "author": "Mila Ziabchenko",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.8",
+    "tiny-timer": "^1.6.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "web-sockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "client": "serve ./client -p 5000",
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.7.1",
+    "socket.io-client": "^4.7.1",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
